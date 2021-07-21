@@ -6,6 +6,7 @@
 A dbex engine implementation to handle MySQL.
 
 ## TODO
+- same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
 - detect server disconnection and reconnect (err code: PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR)
 - check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
@@ -19,6 +20,7 @@ A dbex engine implementation to handle MySQL.
 
 ## Nice to have
 - export/import data/structure (dump/restore)
+- tables, views, procedures, packages, triggers, events
 - list views
   ```
     SHOW FULL TABLES IN od_bot_dev WHERE TABLE_TYPE LIKE 'VIEW'
@@ -27,6 +29,20 @@ A dbex engine implementation to handle MySQL.
     FROM information_schema.TABLES
     WHERE TABLE_TYPE LIKE 'VIEW' AND TABLE_SCHEMA LIKE 'od_bot_dev'
     order by table_name
+
+    SELECT TABLE_SCHEMA, TABLE_NAME
+    FROM information_schema.TABLES
+    WHERE TABLE_TYPE LIKE 'VIEW' AND TABLE_SCHEMA LIKE 'od_bot_dev'
+    order by table_name
+
+    SELECT * --TABLE_SCHEMA, TABLE_NAME
+        FROM information_schema.ROUTINES
+        -- WHERE TABLE_TYPE LIKE 'VIEW' AND
+    WHERE ROUTINE_SCHEMA LIKE 'od_bot_dev'
+    --    order by table_name
+
+    select * from information_schema.TRIGGERS
+    select * from information_schema.EVENTS
   ```
 - list stored procedures
   ```

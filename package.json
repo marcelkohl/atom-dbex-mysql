@@ -21,5 +21,8 @@
         "1.0.0": "subscribePlugin"
       }
     }
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }

@@ -11,7 +11,17 @@
 
 @mysql-struct: '\f121';
 @custom-mysql: '\0041';
+@mysql-view: '\0042';
+@mysql-function: '\0043';
+@mysql-procedure: '\0043';
+@mysql-trigger: '\0044';
+@mysql-event: '\0045';
 @custom-mysql-color: #61AEEF;
+@mysql-view-color: #ffd54f;
+@mysql-function-color: #4dd0e1;
+@mysql-procedure-color: #ff7043;
+@mysql-trigger-color: #f48fb1;
+@mysql-event-color: #ce93d8;
 
 .custom-icon(@name) {
   font-family: 'atom-dbex-mysql';
@@ -32,6 +42,26 @@
 .dbex {
   .mysql-engine-icon::before {
     .custom-icon-colored(custom-mysql);
+  }
+
+  .mysql-view::before {
+    .custom-icon-colored(mysql-view);
+  }
+
+  .mysql-function::before {
+    .custom-icon-colored(mysql-function);
+  }
+
+  .mysql-procedure::before {
+    .custom-icon-colored(mysql-procedure);
+  }
+
+  .mysql-trigger::before {
+    .custom-icon-colored(mysql-trigger);
+  }
+
+  .mysql-event::before {
+    .custom-icon-colored(mysql-event);
   }
 
   .icon-struct::before {
