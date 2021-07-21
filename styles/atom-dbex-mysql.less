@@ -1,9 +1,9 @@
-@fa-font-path: "atom://dbex-engine-base/iconsets";
+@fa-font-path: "atom://atom-dbex-mysql/iconsets";
 
 @font-face {
-    font-family: 'sample-engine-font';
+    font-family: 'atom-dbex-mysql';
     // Font icons can be generated at https://www.glyphter.com/
-    src: url('@{fa-font-path}/sample-engine-font.woff') format('woff');
+    src: url('@{fa-font-path}/atom-dbex-mysql.woff') format('woff');
 
     font-weight: normal;
     font-style: normal;
@@ -11,10 +11,10 @@
 
 @mysql-struct: '\f121';
 @custom-mysql: '\0041';
-@custom-mysql-color: #7fc89a;
+@custom-mysql-color: #61AEEF;
 
 .custom-icon(@name) {
-  font-family: 'sample-engine-font';
+  font-family: 'atom-dbex-mysql';
   content: @@name;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .dbex {
-  .sample-engine-icon::before {
+  .mysql-engine-icon::before {
     .custom-icon-colored(custom-mysql);
   }
 
@@ -38,7 +38,7 @@
     .dbex-icon-fontawesome(mysql-struct);
   }
 
-  .sample-table-counter-detail > .tree-view-root .details {
+  .mysql-table-counter-detail > .tree-view-root .details {
     background-color: #8e8e8ead;
     padding: 0px 5px;
     border-radius: 6px;

@@ -1,14 +1,16 @@
 {
   "main": "./lib/main",
-  "name": "dbex-engine-base",
+  "name": "atom-dbex-mysql",
   "version": "1.0.0",
-  "description": "dbex engine base - Base engine structure",
+  "description": "A dbex engine implementation to handle MySQL",
   "keywords": [
     "dbex",
     "engine",
-    "database"
+    "database",
+    "MySQL",
+    "sql"
   ],
-  "repository": "https://github.com/marcelkohl/dbex-engine-base",
+  "repository": "https://github.com/marcelkohl/atom-dbex-mysql",
   "license": "GPLv3",
   "engines": {
     "atom": ">=1.45.0 <2.0.0"
