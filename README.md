@@ -2,6 +2,13 @@
 Dbex MySQL engine for Atom Editor
 
 ## TODO
+- structure for
+  - tables
+  - views
+  - Functions
+  - procedures
+  - events
+  - triggers
 - same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
 - check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
