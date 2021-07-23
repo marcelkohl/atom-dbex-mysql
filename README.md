@@ -1,13 +1,8 @@
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://bitbucket.org/lbesson/ansi-colors)
-[![Generic badge](https://img.shields.io/badge/Status-Not_ready-red.svg)](https://shields.io/)
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
-
-A dbex engine implementation to handle MySQL.
+# atom-dbex-mysql
+Dbex MySQL engine for Atom Editor
 
 ## TODO
 - same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
-- detect server disconnection and reconnect (err code: PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR)
 - check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
 - multiple lines are not working
