@@ -7,7 +7,11 @@ Dbex MySQL engine for Atom Editor
   - procedures
   - events
   - triggers
-- same connection node name + same database name conflicts to update node (probably same table name will have the same issue);
+- select record info from. Show columns as rows (convert column to pretty name - EVENT_SCHEMA -> Event Schema)
+  - Function
+  - Procedure
+  - event
+  - trigger
 - check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
 - multiple lines are not working
