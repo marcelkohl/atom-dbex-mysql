@@ -5,7 +5,6 @@ Dbex MySQL engine for Atom Editor
 - structure for
   - Functions
   - procedures
-  - events
   - triggers
 - select record info from. Show columns as rows (convert column to pretty name - EVENT_SCHEMA -> Event Schema)
   - Function
