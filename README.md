@@ -2,15 +2,6 @@
 Dbex MySQL engine for Atom Editor
 
 ## TODO
-- structure for
-  - Functions
-  - procedures
-  - triggers
-- select record info from. Show columns as rows (convert column to pretty name - EVENT_SCHEMA -> Event Schema)
-  - Function
-  - Procedure
-  - event
-  - trigger
 - check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
 - multiple lines are not working
