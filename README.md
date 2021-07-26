@@ -2,6 +2,7 @@
 Dbex MySQL engine for Atom Editor
 
 ## TODO
+- add ssl to connection
 - cover "DELIMITER" on queries;
 - multiple lines are not working
   `SET FOREIGN_KEY_CHECKS=0;
