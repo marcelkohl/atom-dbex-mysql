@@ -12,7 +12,7 @@ This egine supports most of the basic aspects of a MySQL conection including:
   <tbody>
     <tr>
       <td>
-        <img src="" />
+        <img alt="Dbex MySQL engine for Atom Editor" src="https://github.com/marcelkohl/atom-dbex-mysql/blob/main/samples/atom-mysql-engine.png" width="400" height="auto"/>
       </td>
       <td>
         <ul>
