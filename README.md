@@ -14,7 +14,6 @@ Dbex MySQL engine for Atom Editor
 
 ## Nice to have
 - export/import data/structure (dump/restore)
-- return table, function, procedure code
   ```
     show create table GetAllAssets
     show create table assets
