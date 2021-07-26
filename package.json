@@ -23,7 +23,7 @@
     }
   },
   "dependencies": {
-    "mysql": "^2.18.1",
-    "sql-prettier": "0.1.12"
+    "mysql2": "^2.2.5",
+    "sql-prettier": "^0.1.12"
   }
 }

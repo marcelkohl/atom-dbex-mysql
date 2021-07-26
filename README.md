@@ -2,7 +2,6 @@
 Dbex MySQL engine for Atom Editor
 
 ## TODO
-- check fix/lib for newer versions of mysql
 - cover "DELIMITER" on queries;
 - multiple lines are not working
   `SET FOREIGN_KEY_CHECKS=0;
