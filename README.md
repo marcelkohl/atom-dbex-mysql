@@ -25,8 +25,12 @@ This egine supports most of the basic aspects of a MySQL conection including:
   </tbody>
 <table>
 
-## TODO
+## MUST HAVE BEFORE GO LIVE
 - implement refresh node;
+- test if plugin install will request for dbex plugin
+
+## TODO
+- possibility yo install mysql highlight grammar to support queries area;
 - cover "DELIMITER" on queries;
 - multiple lines are not working
     - example:  `SET FOREIGN_KEY_CHECKS=0;
