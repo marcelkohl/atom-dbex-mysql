@@ -26,7 +26,6 @@ This egine supports most of the basic aspects of a MySQL conection including:
 <table>
 
 ## MUST HAVE BEFORE GO LIVE
-
 - implement refresh node;
 - test if plugin install will request for dbex plugin
 
