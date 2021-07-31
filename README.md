@@ -4,9 +4,9 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 # atom-dbex-mysql
-Dbex MySQL engine for Atom Editor.
+[Dbex](https://github.com/marcelkohl/dbex) MySQL engine for Atom Editor.
 
-This egine supports most of the basic aspects of a MySQL conection including:
+This engine supports most of the basic aspects of a MySQL connection including:
 
 <table>
   <tbody>
@@ -27,6 +27,11 @@ This egine supports most of the basic aspects of a MySQL conection including:
 
 ## MUST HAVE BEFORE GO LIVE
 - implement refresh node;
+  - view/views
+  - function/functions
+  - procedure/procedures
+  - trigger/triggers
+  - event/events
 - test if plugin install will request for dbex plugin
 
 ## TODO
