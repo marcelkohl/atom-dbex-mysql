@@ -27,7 +27,6 @@ This engine supports most of the basic aspects of a MySQL connection including:
 
 ## MUST HAVE BEFORE GO LIVE
 - implement refresh node;
-  - view/views
   - function/functions
   - procedure/procedures
   - trigger/triggers
