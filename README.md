@@ -25,10 +25,8 @@ This engine supports most of the basic aspects of a MySQL connection including:
   </tbody>
 <table>
 
-## MUST HAVE BEFORE GO LIVE
-- test if plugin install will request for dbex plugin
-
 ## TODO
+- install MySQL language support if not installed
 - possibility yo install mysql highlight grammar to support queries area;
 - cover "DELIMITER" on queries;
 - multiple lines are not working
