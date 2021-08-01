@@ -26,9 +26,6 @@ This engine supports most of the basic aspects of a MySQL connection including:
 <table>
 
 ## MUST HAVE BEFORE GO LIVE
-- implement refresh node;
-  - trigger/triggers
-  - event/events
 - test if plugin install will request for dbex plugin
 
 ## TODO
