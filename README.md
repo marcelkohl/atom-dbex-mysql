@@ -26,8 +26,7 @@ This engine supports most of the basic aspects of a MySQL connection including:
 <table>
 
 ## TODO
-- install MySQL language support if not installed
-- possibility yo install mysql highlight grammar to support queries area;
+- install MySQL language support if not installed;
 - cover "DELIMITER" on queries;
 - multiple lines are not working
     - example:  `SET FOREIGN_KEY_CHECKS=0;
