@@ -10,7 +10,7 @@ This engine supports most of the basic aspects of a MySQL connection including:
 
 |||
 |---|---|
-|<img alt="Dbex MySQL engine for Atom Editor" src="https://github.com/marcelkohl/atom-dbex-mysql/blob/main/samples/atom-mysql-engine.png" width="400" height="auto"/>|- Listing schemas, tables, views, functions, procedures and table triggers<br>- Distintion about Primary/Foreign keys, and normal fields;<br>- Double click on Table and Views shows a limited query;<br> - Actions to show structures for tables, views, functions, procedures and table triggers;|
+|<img alt="Dbex MySQL engine for Atom Editor" src="https://raw.githubusercontent.com/marcelkohl/atom-dbex-mysql/master/samples/atom-mysql-engine.png" width="400" height="auto"/>|- Listing schemas, tables, views, functions, procedures and table triggers<br>- Distintion about Primary/Foreign keys, and normal fields;<br>- Double click on Table and Views shows a limited query;<br> - Actions to show structures for tables, views, functions, procedures and table triggers;|
 
 ## TODO
 - install MySQL language support if not installed;
