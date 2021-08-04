@@ -1,7 +1,7 @@
 {
   "main": "./lib/main",
   "name": "atom-dbex-mysql",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dbex engine implementation to handle MySQL",
   "keywords": [
     "dbex",
