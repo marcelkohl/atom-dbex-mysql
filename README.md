@@ -16,6 +16,10 @@ This engine supports most of the basic aspects of a MySQL connection including:
 ![Dbex MySQL engine for Atom Editor](https://raw.githubusercontent.com/marcelkohl/atom-dbex-mysql/master/samples/atom-mysql-engine.png)
 
 ## TODO
+- window to create/alter table structure
+  - foreign keys association;
+    - https://ubiq.co/database-blog/mysql-add-foreign-key/
+  - engine, charset and collation options (`ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci`);
 - install MySQL language support if not installed;
 - cover "DELIMITER" on queries;
 - multiple lines are not working
@@ -27,3 +31,12 @@ This engine supports most of the basic aspects of a MySQL connection including:
     SET FOREIGN_KEY_CHECKS=1;`
 - implement ssl connection
 - export/import data/structure (dump/restore)
+
+## Warranty Disclaimer
+The following disclaimer was written thinking in all professionals that works with data and know how important data is.
+
+**All work here is provided ​“AS IS” AND I CANNOT MAKE ANY EXPRESS OR IMPLIED WARRANTY OF ANY KIND. As this is a side project from myself and a non-commercial product, I cannot give any warranties about the correct and full functional product. I hereby declare to not be liable for any damages arising in use of or inability to use this software.**
+
+**USE IT BY YOUR OWN RISK.**
+
+**KEEP BACKUPS UPDATED.**
