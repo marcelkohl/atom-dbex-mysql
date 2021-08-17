@@ -1,0 +1,121 @@
+#mysql-create-table {
+  table {
+    width: 100%;
+    margin: 10px 0px;
+
+    input.input-checkbox {
+      position: relative;
+    }
+  }
+
+  th {
+    padding: 0px 2px;
+  }
+
+  td {
+    padding: 1px 2px;
+
+    .editor.mini {
+      margin: 0px;
+    }
+  }
+
+  tbody::before {
+    content:"@";
+    display:block;
+    line-height:10px;
+    text-indent:-99999px;
+  }
+
+  tr.selected{
+    background-color: #ffffff4d;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+  .heading {
+    .button {
+      padding: 0px 4px;
+      margin: 0px 2px;
+      cursor: pointer;
+      color: rgba(163, 168, 174, 0.6);
+    }
+
+    .button:hover {
+      color: #d9dbde;
+      background-color: #ffffff30;
+    }
+  }
+
+  .inner-section-header {
+    color: white;
+    padding: 4px;
+    margin-bottom: 10px;
+  }
+
+  .fields-container, .fks-container {
+    max-height: 300px;
+    overflow: auto;
+    padding: 4px 4px;
+  }
+
+  .attributes {
+    input.tab { display: none; }
+    input.tab + label { display: inline-block }
+    input.tab ~ .tab { display: none }
+    #tab-fields:checked ~ .tab.content-fields,
+    #tab-foreign-keys:checked ~ .tab.content-foreign-keys
+    { display: block; }
+
+    div.tab {
+      background-color: #ffffff0d;
+    }
+
+    input.tab + label {
+      position: relative;
+      top: 0;
+      padding: 0px 10px;
+      margin: 0;
+      height: inherit;
+      font-size: 1.15em;
+      line-height: 2.5em;
+      min-width: 40px;
+      max-width: 175px;
+      text-align: center;
+      flex: 1 1 0;
+    }
+    input.tab:checked + label {
+      background-color: #ffffff0d;
+      &::before {
+        content: "";
+        position: absolute;
+        pointer-events: none;
+        z-index: 2;
+        top: 0;
+        left: -1px;
+        bottom: 0;
+        width: 2px;
+        background: #519fee;
+      }
+    }
+
+    input.tab ~ .tab {
+      height: 300px;
+    }
+  }
+
+  .table-base-info .controls {
+    margin-bottom: 10px;
+  }
+}
+
+.dbex {
+  .mysql-table-counter-detail > .tree-view-root .details {
+    background-color: #8e8e8ead;
+    padding: 0px 5px;
+    border-radius: 6px;
+    color: black;
+  }
+}

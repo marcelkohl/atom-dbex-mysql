@@ -16,6 +16,7 @@
 @mysql-procedure: '\0043';
 @mysql-trigger: '\0044';
 @mysql-event: '\0045';
+@mysql-create-table: '\f067';
 @custom-mysql-color: #61AEEF;
 @mysql-view-color: #ffd54f;
 @mysql-function-color: #4dd0e1;
@@ -68,10 +69,7 @@
     .dbex-icon-fontawesome(mysql-struct);
   }
 
-  .mysql-table-counter-detail > .tree-view-root .details {
-    background-color: #8e8e8ead;
-    padding: 0px 5px;
-    border-radius: 6px;
-    color: black;
+  .mysql-create-table::before {
+    .dbex-icon-fontawesome(mysql-create-table);
   }
 }
